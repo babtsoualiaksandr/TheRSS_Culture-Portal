@@ -5,7 +5,17 @@ import { IEnvironment } from 'src/app/models/ienvironment';
 // The list of file replacements can be found in `angular.json`.
 
 export const environment: IEnvironment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyDLlvCHtid4BfZz-x5GUfEapmbT7P1hNRU",
+    authDomain: "culture-bc8c4.firebaseapp.com",
+    databaseURL: "https://culture-bc8c4.firebaseio.com",
+    projectId: "culture-bc8c4",
+    storageBucket: "culture-bc8c4.appspot.com",
+    messagingSenderId: "923143386821",
+    appId: "1:923143386821:web:8bb0401f62d1d114c5a2ac",
+    measurementId: "G-WJPZFGWGDE"
+  }
 };
 
 /*
